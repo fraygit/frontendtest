@@ -1,0 +1,111 @@
+.header-bar{
+  background-color: chartreuse;
+  padding: 12px;
+}
+
+.header-menu{
+  padding: 10px;
+  font-size:12pt;
+  color:black;
+  font-weight:bold;
+}
+
+.side-bar{
+  background-color: lightgrey;
+}
+
+.side-bar-name {
+  font-size: 12pt;
+}
+
+.side-menu {
+  padding-top: 15px;
+  padding-left: 0px;
+  list-style: none;
+  font-size: 11pt;
+}
+
+  .side-menu a {
+    color: black;
+    text-decoration: none;
+  }
+
+  .side-menu a:hover {
+    color: chartreuse;
+    text-decoration: none;
+  }
+
+
+.side-menu-module {
+  padding-left: 0px;
+}
+
+  .side-menu-module li {
+    list-style: none;
+    font-weight: bold;
+    padding-bottom: 10px;
+    font-size: 12pt;
+  }
+
+.side-menu-tasks {
+  padding-left: 0px;
+}
+
+.side-menu-tasks li {
+  padding-bottom: 10px;
+  list-style: none;
+  font-size: 11pt;
+  font-weight: normal;
+}
+
+  .side-menu-tasks a {
+    color: black;
+    text-decoration: none;
+    font-size:12pt;
+  }
+
+    .side-menu-tasks a:hover {
+      color: chartreuse;
+      text-decoration: none;
+    }
+
+
+.profile {
+  height: 70px;
+  width: 70px;
+  background-color: navy;
+  border-radius: 50%;
+  display: inline-block;
+  margin:20px;
+  
+}
+
+.main-body {
+  padding-top: 15px;
+  padding-left: 40px;
+}
+
+.main-body h1 {
+  margin-bottom: 30px;
+  font-size:16pt;
+  font-weight:bold;
+}
+
+  .main-body h2 {
+    font-size: 16pt;
+    font-weight: bold;
+  }
+
+  .main-body h1 span {
+    margin-bottom: 30px;
+    font-size: 16pt;
+    font-weight: normal;
+  }
+
+
+.panel {
+  width: 70%;
+  background-color: lightgray;
+  padding: 15px;
+  margin-bottom:50px;
+}

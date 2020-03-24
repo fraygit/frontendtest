@@ -1,0 +1,56 @@
+<div class="container">
+  <div class="row header-bar">
+    <div class="col-md-6">
+
+    </div>
+    <div class="col-md-6 text-right">
+      <a href="" class="header-menu">HOME</a> |
+      <a href="" class="header-menu">ENROL</a> |
+      <a href="" class="header-menu">LEARN</a>
+      <button class="btn btn-primary">LOG OUT</button>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-2 side-bar">
+      <span class="profile"></span>
+      <br />
+
+      <span class="side-bar-name text-center">{{ Name }}</span>
+
+      <ul class="side-menu">
+        <li><a href="">Dashboard</a></li>
+        <li><a href="">Profile</a></li>
+        <li><a href="">Course</a></li>
+        <li><a href="">Results</a></li>
+      </ul>
+
+      <hr />
+
+      <ul class="side-menu-module">
+        <li>
+          Module 1
+          <ul class="side-menu-tasks">
+            <li *ngFor="let moduleAction of Module.moduleActions"><a href="#">{{ moduleAction.title}}</a></li>
+          </ul>
+        </li>
+      </ul>
+
+    </div>
+    <div class="col-md-10 main-body">
+      
+      <h1>Module 1: <span>{{ Module.title }}</span></h1>
+
+      <div class="panel" ngbindhtml="Module.description">
+        
+      </div>
+
+      <h1>Task 4: <span>Life on the Farm</span></h1>
+
+      <h2>All you need to know about farming</h2>
+      <p>Click and read the following article and answer the question below</p>
+    </div>
+  </div>
+
+
+</div>
